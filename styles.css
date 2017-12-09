@@ -1,0 +1,129 @@
+body{
+    font-family: "Trebuchet MS";
+}
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    padding: 20px;
+    display: inline;
+    text-align: center;
+}
+li a{
+    color: grey;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+li img{
+    width: 3em;
+    height: 0.95em;
+}
+.active{
+    background-color: #AA2200;
+    color: white;
+}
+#qa{
+    margin-left: 325px;
+    margin-right: 325px;
+    text-align: left;
+    font-family: "Trebuchet MS";
+    margin-top: 100px;
+}
+#qa .ques{
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 10%;
+}
+
+#qa a{
+    text-decoration: none;
+    color: black;
+}
+
+#qa a:visited{
+    text-decoration: none;
+    color: black;
+}
+#qa a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#qa .ud{
+    font-size:0.9em;
+    line-height: 10%;
+}
+#qa .td{
+    font-size: 0.75em;
+    line-height: 10%;
+    color: gray;
+}
+#qa .ans{
+    font-size: 1em;
+    font-weight: normal;
+}
+#qa article{
+    border: 0.5px solid lightgray;
+    margin-top: 10px;
+}
+.blue{
+    background-color: lightcyan;
+    color: blue;
+    font-size: 16px;
+}
+
+#qa a.links{
+        color: darkgray;
+}
+
+#mans{
+    margin-left: 325px;
+    margin-right: 325px;
+}
+
+#mans article{
+    margin: 10px;
+    border-top: 0.5px solid lightgray;  
+}
+
+#mans .ud{
+    font-size:0.9em;
+    line-height: 10%;
+}
+
+#mans .td{
+    font-size: 0.75em;
+    line-height: 10%;
+    color: gray;
+}
+
+#mans .ans{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#mans a{
+    text-decoration: none;
+}
+
+aside{
+    width: 320px;
+    margin-top: 50px;
+}
+
+aside a{
+    font-size: 12px;
+    color: blue;
+    text-decoration: none;
+
+}
+
+#mans a.links{
+        color: darkgray;
+}
+
